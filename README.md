@@ -9,7 +9,7 @@ Supports task creation, completion, deletion, and real-time cloud sync with Fire
 
 | Task Added | Task Completed | Task Deleted |
 |------------|----------------|---------------|
-| ![Add](screenshots/list.png) | ![Checked](screenshots/check.png) | ![Deleted](screenshots/delete.png) |
+| ![Add](img/list.png) | ![Checked](img/check.png) | ![Deleted](img/delete.png) |
 
 ---
 
