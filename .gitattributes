@@ -1,0 +1,18 @@
+# ⛔️ บอก GitHub ว่าโฟลเดอร์เหล่านี้เป็นโค้ดระบบ ไม่ใช่โค้ดหลักของโปรเจกต์
+android/** linguist-vendored
+ios/** linguist-vendored
+macos/** linguist-vendored
+windows/** linguist-vendored
+linux/** linguist-vendored
+build/** linguist-generated
+
+# ⛔️ ไฟล์ native C/C++ ที่อาจจะมาจาก plugin
+*.c linguist-vendored
+*.cpp linguist-vendored
+*.h linguist-vendored
+*.cc linguist-vendored
+*.cmake linguist-vendored
+
+# ✅ บอก GitHub ให้เน้น Dart เป็นหลัก
+*.dart linguist-detectable=true
+lib/** linguist-detectable=true
